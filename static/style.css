@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+.feature-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #343a40; 
+    color: #fff; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.journey-section {
+    background-color: black;
+}
+
+.journey-title {
+    color: white;
+}
+
+.yellow-text {
+    color: darkgoldenrod;
+}
+
+.white-text {
+    color: white;
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+    padding: 15px;
+    height: 50px; 
+    line-height: 50px; 
+}
+
+.navbar-text {
+    margin-left: auto;
+    margin-right: 15px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.navbar-toggler {
+    height: 50px; 
+    line-height: 50px; 
+}
+
+.navbar-toggler-icon {
+    vertical-align: middle; 
+}
+
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #343a40; 
+    color: white;
+}
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+.custom-card-width {
+    max-width: calc(100% - 30px);
+    flex: 0 0 calc(25% - 30px); 
+}
